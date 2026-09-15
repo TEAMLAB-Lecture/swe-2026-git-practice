@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SWE 2026 팀 갤러리</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">국립부경대 소프트웨어공학 2026-2 · 3주차 Git 실습</p>
+    <h1>팀 갤러리</h1>
+    <p class="lead">팀마다 fork하고, 팀원은 PR로 자기 소개를 올리고, 팀 리더가 이 저장소로 PR을 보냅니다.</p>
+    <input id="search" type="search" placeholder="팀 이름이나 사람 이름으로 찾기" aria-label="검색">
+  </header>
+
+  <main id="teams" class="grid"></main>
+
+  <footer class="site-footer">
+    <span id="count"></span>
+    <a href="https://github.com/TEAMLAB-Lecture/swe-2026-git-practice">GitHub 저장소</a>
+  </footer>
+
+  <script src="data/teams.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
