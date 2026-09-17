@@ -26,7 +26,8 @@ window.TEAMS = [
   {
     name: "넘버투",
     motto: "함께 만들고 성장하자",
-    members: [
+    members: [ 
+	{ name: "김태용", github: "yong-i", role: "팀원", hello: "팀원들과 함께 열심히 해보겠습니다." },
     ],
   },
 
