@@ -35,6 +35,7 @@ window.TEAMS = [
     name: "삼위일체",
     motto: "셋이 모여, 하나를 완성한다",
     members: [
+      { name: "유현우", github: "hxeonnu", role: "팀원", hello: "열심히 배우겠습니다." }
     ],
   },
 
