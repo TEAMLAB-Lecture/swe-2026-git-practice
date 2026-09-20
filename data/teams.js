@@ -44,6 +44,7 @@ window.TEAMS = [
     motto: "",
     members: [
       { name: "이수인", github: "bullet84", role: "팀원", hello: "안녕하세요. 기술데이터공학전공 22학번 이수인입니다." },
+      { name: "강석현", github: "kag9999-web", role: "팀원", hello: "안녕하세요!" },
     ],
   },
 ];
