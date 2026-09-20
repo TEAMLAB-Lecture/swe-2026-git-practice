@@ -21,6 +21,7 @@ window.TEAMS = [
     members: [
       { name: "김이루비", github: "kim-irubi", role: "팀원", hello: "뭐라도 해봐 클로드" },
       { name: "손상현", github: "tssvip21", role: "팀원", hello: "안녕하세요." },
+      { name: "정시윤", github: "JungSeeyun", role: "팀원", hello: "안녕하세요! 기술데이터공학전공 3학년 정시윤입니다. 만나서 반갑습니다." },
     ],
   },
 
