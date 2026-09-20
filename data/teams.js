@@ -19,7 +19,7 @@ window.TEAMS = [
     name: "TEAM넘버원",
     motto: "클러드는 믿을게 못된다.",
     members: [
-      { name: "김이루비", github: "kim-irubi", role: "팀원", hello: "뭐라도 해봐 클로드"}
+      { name: "김이루비", github: "kim-irubi", role: "팀원", hello: "뭐라도 해봐 클로드" },
     ],
   },
 
