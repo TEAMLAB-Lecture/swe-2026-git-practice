@@ -43,6 +43,7 @@ window.TEAMS = [
     name: "4팀",
     motto: "",
     members: [
+      { name: "강석현", github: "kag9999-web", role: "팀원", hello: "안녕하세요!" },
     ],
   },
 ];
