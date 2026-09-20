@@ -20,6 +20,7 @@ window.TEAMS = [
     motto: "클러드는 믿을게 못된다.",
     members: [
       { name: "김이루비", github: "kim-irubi", role: "팀원", hello: "뭐라도 해봐 클로드" },
+      { name: "손상현", github: "tssvip21", role: "팀원", hello: "안녕하세요." },
     ],
   },
 
