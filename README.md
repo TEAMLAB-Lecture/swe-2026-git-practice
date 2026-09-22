@@ -93,6 +93,38 @@ git push -u origin add-chulsoo
 - [ ] 비밀번호, 전화번호 같은 개인 정보가 들어가지 않았다.
 - [ ] 9월 21일(월)까지 이 저장소로 최종 PR을 열고 LMS 댓글에 주소를 적었다.
 
+## 4. 2차 실습: 최신 버전 동기화 후 반복
+
+1차 PR이 모두 병합되고 `CODEBASE.md`·`codebase-submissions/` 구성이 정리됐습니다. 이제 각 팀은 교수 저장소(`TEAMLAB-Lecture/swe-2026-git-practice`)의 최신 `main`을 팀 저장소로 가져와 **내 페이지를 교수 페이지와 동일하게 맞춘 다음**, 1차와 같은 흐름(브랜치 → PR → 리뷰 코멘트 → 병합)을 한 번 더 연습합니다.
+
+### ① 팀 리더: 팀 저장소를 교수 저장소와 동기화
+
+팀 저장소에 `upstream`이라는 이름으로 교수 저장소를 원격으로 추가하고, 최신 `main`을 받아 팀 저장소의 `main`에 반영합니다.
+
+```bash
+git remote add upstream https://github.com/TEAMLAB-Lecture/swe-2026-git-practice.git
+git fetch upstream
+git switch main
+git merge upstream/main
+git push origin main
+```
+
+- `git remote -v`로 `upstream`이 이미 등록돼 있는지 먼저 확인하세요. 있으면 `git remote add` 줄은 건너뜁니다.
+- 이 과정을 마치면 팀 저장소의 `main`이 교수 저장소의 `main`과 완전히 같아집니다(`CODEBASE.md`, `codebase-submissions/`, 다른 팀들의 `data/teams.js` 블록 포함).
+
+### ② 팀원: 로컬을 팀 저장소 main과 맞추기
+
+```bash
+git switch main
+git pull origin main
+```
+
+이제 모든 팀원이 팀 리더·교수와 동일한 페이지를 보게 됩니다.
+
+### ③ 팀원 → 팀 리더 → 교수 저장소: 1차와 동일한 흐름 반복
+
+브랜치를 만들어 작업하고, 팀 저장소로 PR을 열고, 팀 리더가 리뷰 코멘트를 남긴 뒤 병합합니다(**2. 진행 순서**의 ②③과 동일). 팀 리더는 이어서 교수 저장소로 최종 PR을 열고(④와 동일), 병합되면 1차 때처럼 PR에 완료 댓글(리플)이 달립니다.
+
 ## 막히면 Claude Code에게 이렇게 시킨다
 
 - 이 저장소의 파일 구조와 실행 방법을 파악해서 CODEBASE.md로 정리해 줘.
