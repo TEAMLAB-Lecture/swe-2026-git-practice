@@ -28,17 +28,21 @@ window.TEAMS = [
 
   // ── 2팀 ───────────────────────────────────────────────
   {
-    name: "2팀",
-    motto: "",
+    name: "넘버투",
+    motto: "함께 만들고 성장하자",
     members: [
+      { name: "이태민", github: "tam778-create", role: "팀원", hello: "이번 과제 같이 잘 해봐요!" },
+      { name: "김태용", github: "yong-i", role: "팀원", hello: "팀원들과 함께 열심히 해보겠습니다." },
     ],
   },
 
   // ── 3팀 ───────────────────────────────────────────────
   {
-    name: "3팀",
-    motto: "",
+    name: "삼위일체",
+    motto: "셋이 모여, 하나를 완성한다",
     members: [
+      { name: "안성균", github: "CHR1STAR", role: "팀원", hello: "열심히 하겠습니다."},
+      { name: "유현우", github: "hxeonnu", role: "팀원", hello: "열심히 배우겠습니다." },
     ],
   },
 
