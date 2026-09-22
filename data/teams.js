@@ -16,25 +16,33 @@ window.TEAMS = [
 
   // ── 1팀 ───────────────────────────────────────────────
   {
-    name: "1팀",
-    motto: "",
+    name: "TEAM넘버원",
+    motto: "클러드는 믿을게 못된다.",
     members: [
+      { name: "윤솔민", github: "yoonsoli", role: "팀 리더", hello: "안녕하세요, TEAM넘버원 팀 리더 윤솔민입니다. 클러드는 못 믿어도 팀원은 믿습니다!" },
+      { name: "김이루비", github: "kim-irubi", role: "팀원", hello: "뭐라도 해봐 클로드" },
+      { name: "손상현", github: "tssvip21", role: "팀원", hello: "안녕하세요." },
+      { name: "정시윤", github: "JungSeeyun", role: "팀원", hello: "안녕하세요! 기술데이터공학전공 3학년 정시윤입니다. 만나서 반갑습니다." },
     ],
   },
 
   // ── 2팀 ───────────────────────────────────────────────
   {
-    name: "2팀",
-    motto: "",
+    name: "넘버투",
+    motto: "함께 만들고 성장하자",
     members: [
+      { name: "이태민", github: "tam778-create", role: "팀원", hello: "이번 과제 같이 잘 해봐요!" },
+      { name: "김태용", github: "yong-i", role: "팀원", hello: "팀원들과 함께 열심히 해보겠습니다." },
     ],
   },
 
   // ── 3팀 ───────────────────────────────────────────────
   {
-    name: "3팀",
-    motto: "",
+    name: "삼위일체",
+    motto: "셋이 모여, 하나를 완성한다",
     members: [
+      { name: "안성균", github: "CHR1STAR", role: "팀원", hello: "열심히 하겠습니다."},
+      { name: "유현우", github: "hxeonnu", role: "팀원", hello: "열심히 배우겠습니다." },
     ],
   },
 
