@@ -32,9 +32,11 @@ window.TEAMS = [
 
   // ── 3팀 ───────────────────────────────────────────────
   {
-    name: "3팀",
-    motto: "",
+    name: "삼위일체",
+    motto: "셋이 모여, 하나를 완성한다",
     members: [
+      { name: "안성균", github: "CHR1STAR", role: "팀원", hello: "열심히 하겠습니다."},
+      { name: "유현우", github: "hxeonnu", role: "팀원", hello: "열심히 배우겠습니다." },
     ],
   },
 
