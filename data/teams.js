@@ -41,8 +41,9 @@ window.TEAMS = [
     name: "삼위일체",
     motto: "셋이 모여, 하나를 완성한다",
     members: [
-      { name: "안성균", github: "CHR1STAR", role: "팀원", hello: "열심히 하겠습니다."},
-      { name: "유현우", github: "hxeonnu", role: "팀원", hello: "열심히 배우겠습니다." },
+      { name: "양지원", github: "jiwon72", role: "팀 리더", hello: "안녕하세요, 삼위일체 팀 리더 양지원입니다." },
+      { name: "안성균", github: "CHR1STAR", role: "팀원", hello: "삼위일체 팀 안성균입니다. 열심히 하겠습니다." },
+      { name: "유현우", github: "hxeonnu", role: "팀원", hello: "안녕하세요, 삼위일체 팀원 유현우입니다. 화이팅 하겠습니다." },
     ],
   },
 
