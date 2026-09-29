@@ -31,8 +31,9 @@ window.TEAMS = [
     name: "넘버투",
     motto: "함께 만들고 성장하자",
     members: [
-      { name: "이태민", github: "tam778-create", role: "팀원", hello: "이번 과제 같이 잘 해봐요!" },
-      { name: "김태용", github: "yong-i", role: "팀원", hello: "팀원들과 함께 열심히 해보겠습니다." },
+      { name: "이창민", github: "lcm98872-design", role: "팀 리더", hello: "함께 배우며 끝까지 완성하겠습니다." },
+      { name: "이태민", github: "tam778-create", role: "팀원", hello: "안녕하세요! 기술데이터공학전공 3학년 이태민입니다. 2차 실습도 잘해봐요!! " },
+      { name: "김태용", github: "yong-i", role: "팀원", hello: "안녕하세요! 김태용입니다. 2차 실습도 함께 열심히 해보겠습니다" },
     ],
   },
 
